@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShopEase | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">ShopEase</div>
+        <input type="text" class="search-bar" placeholder="Search products...">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+           <a href="cart.html">🛒 Cart</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to ShopEase</h2>
+        <p>Your favorite place to shop everything</p>
+        <a href="products.html" class="btn">Browse Products</a>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+
+    <div class="product-card">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.yBzD2Z2c8EgCT1QvsDarxAHaGK?pid=Api&P=0&h=180" alt="Laptop">
+    <h3>Laptop</h3>
+    <p>₹39999</p>
+    <button class="btn" 
+        onclick="addToCart('Laptop', 39999, 'https://tse4.mm.bing.net/th/id/OIP.yBzD2Z2c8EgCT1QvsDarxAHaGK?pid=Api&P=0&h=180')">
+        Add to Cart
+    </button>
+</div>
+
+
+
+       <div class="product-card">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.-zH9jHOEpnwzpEd3ldkieQHaHa?pid=Api&P=0&h=180" alt="Arabica Coffee">
+    <h3>Arabica Coffee</h3>
+    <p>₹199</p>
+    <button class="btn" 
+        onclick="addToCart('Arabica Coffee', 199, 'https://tse4.mm.bing.net/th/id/OIP.-zH9jHOEpnwzpEd3ldkieQHaHa?pid=Api&P=0&h=180')">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="product-card">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.qD1Rq0B5z5gWpV4PHyE85wHaJQ?pid=Api&P=0&h=180" alt="Jeans">
+    <h3>Jeans</h3>
+    <p>₹1299</p>
+    <button class="btn" 
+        onclick="addToCart('Jeans', 1299, 'https://tse2.mm.bing.net/th/id/OIP.qD1Rq0B5z5gWpV4PHyE85wHaJQ?pid=Api&P=0&h=180')">
+        Add to Cart
+    </button>
+</div>
+
+          
+        </div>
+    </section>
+
+    <!-- Why Shop With Us -->
+    <section class="why-shop">
+        <h2>Why Shop with Us?</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>Fast Delivery</h3>
+                <p>Get your products delivered within 48 hours.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Quality Products</h3>
+                <p>We ensure only the best products reach you.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Secure Payments</h3>
+                <p>Your payments are safe with encrypted transactions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"Great service and amazing coffee products!"</p>
+                <h4>- Rohan K.</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"ShopEase makes online shopping so easy."</p>
+                <h4>- Priya S.</h4>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
